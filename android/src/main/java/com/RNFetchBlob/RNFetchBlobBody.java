@@ -1,6 +1,5 @@
 package com.RNFetchBlob;
 
-import android.support.annotation.NonNull;
 import android.util.Base64;
 
 import com.facebook.react.bridge.Arguments;
@@ -19,6 +18,9 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 import android.net.Uri;
+
+import androidx.annotation.NonNull;
+
 import okhttp3.MediaType;
 import okhttp3.RequestBody;
 import okio.BufferedSink;
